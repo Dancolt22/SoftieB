@@ -37,7 +37,7 @@ img {
 header {
   position: sticky;
   top: 0;
-  background: rgba(253, 251, 251, 0.9);
+  background: #181113;
   backdrop-filter: blur(10px);
   padding: 1.5rem 4rem;
   border-bottom: 1px solid #eee;
@@ -52,6 +52,7 @@ header {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  color: green;
 }
 
 nav {
@@ -64,6 +65,7 @@ nav a {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   font-weight: 600;
+  color: white;
 }
 
 nav a:hover {
@@ -229,6 +231,7 @@ footer {
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
+
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
